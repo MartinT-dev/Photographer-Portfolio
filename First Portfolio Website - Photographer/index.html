@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Resposive NavBar</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Logo</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#aboutSection">About</a>
+            </li>
+            <li>
+                <a href="#projectsSection">Projects</a>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+
+    <header class="header-content">
+        <h1>More than a passion.</h1>
+       
+    </header>
+
+    <section id="aboutSection" class="about">
+        
+            <div class="contentText">
+                <h1>Who am I? </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ex tempora nulla vitae voluptatibus doloremque harum omnis.
+                     Quos assumenda sint soluta?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque modi illum laborum iste!
+                     Ad aut recusandae eveniet, dolor, asperiores quod architecto at a quisquam tempora voluptates qui facere optio enim.
+                    </p>
+                <div class="button">
+                    <a href="#projectsSection" class="projectsLink">Click to see my work!</a>
+                </div>
+            </div>
+            <div class="aboutImg">
+                <img src="/img/profile photo.jpg">
+            </div>
+       
+    </section>
+   
+    <section id="projectsSection" class="projects">
+       
+        <button id="prevBtn" class="fas fa-arrow-left" ></button>
+        <button id="nextBtn" class="fas fa-arrow-right"></button>
+
+            <div class="carousel">
+            <img id="lastClone" src="/img-carousel/niagara.jpg">
+            <img src="/img-carousel/lake.jpg">
+            <img src="/img-carousel/rocks.jpg">
+            <img src="/img-carousel/top.jpg">
+            <img src="/img-carousel/niagara.jpg">
+            <img id="fistClone" src="/img-carousel/lake.jpg">
+            </div>
+    </section>
+
+    <section id="contactSection" class="contact">
+        
+    </section>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/carousel.js"></script>
+</body>
+</html>
